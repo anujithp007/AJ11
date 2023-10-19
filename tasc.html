@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <form class="paragraph" action="">
+    <h1 class="reg">Register Here</h1>
+    <p class="p">Please fill in the detials to create an account with us</p>
+    
+        <label for="email">Enter email</label><br><br/>
+        <input type="email" name="email" id="email" placeholder="Enter email"><br><br/>
+        <label for="password">Password</label><br><br/>
+        <input type="password" placeholder="Enter the password"name="password" id="password"><br><br/>
+        <label for="ipassword">Confirm Password</label><br><br/>
+        <input type="password" placeholder="confirm the password" id="ipassword"><br><br/>
+        <p>By creating an account you agree to our <span class="in" >Terms&Privacy</span></p>
+       <input  class="button"type="submit" value="Register" id="">
+        
+
+    </form>
+    <div class="paragraph">
+    <p>
+        Already have an account?<span class="in">Sign in</span></p>
+
+</div>
+    <style>
+        body{
+            background-color: rgb(58, 142, 216);
+        }
+        .reg{
+            margin: auto;
+            width: fit-content;
+        }
+        .paragraph{
+            border: 1px solid ;
+            width: 366px;
+            padding: 20px;
+            margin: auto;
+            border-radius: 10px;
+            margin-top: 20px;
+            background-color: white;
+            
+        }
+        label{
+            font-weight: bold;
+            text-align: left;
+        }
+        .button{
+            background-color: darkgreen;
+            border: none;
+            color: white;
+            height: 20px;
+        }
+        .in{
+            color: blue;
+        }
+        input{
+            width:100%;
+        }
+        .p{border-bottom: 1px solid red;
+            padding: 20px;
+
+        }
+    </style>
+   
+    
+</body>
+</html>

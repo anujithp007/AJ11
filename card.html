@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="f1">
+        <div>
+            <img class="img1" src="istockphoto-1431188687-170667a.webp" alt="">
+        </div>
+        <div><form action="">
+
+            <label for="Cardholder">CARD HOLDER NAME</label><br>
+            <input type="text" name="Cardholder" id="Cardholder" placeholder="e.g jane app"><br>
+            <label for="card number">CARD NUMBER</label><br>
+            <input type="number" name="card number" id="card number" placeholder="3245 5656 8788 9999"><br>
+            <label for="exp date">EXP.DATE</label>
+            <label style="padding-left: 140px; " for="cvv">CVV</label><br>
+            <input style="width: 40px;"  type="number" name="exp date" id="exp date" placeholder="mm">
+            <input style="width: 40px;" type="number" name="exp date" id="exp date" placeholder="yy">
+            <input class="cvv"  type="number" name="cvv" id="cvv" placeholder="666"><br>
+            <input class="Confirm" type="submit" value="Confirm">
+            
+        </form>
+        </div>
+    </div>
+    <img class="front" src="front.png" alt="">
+    <img class="back" src="back.png" alt="">
+</body>
+</html>
+<style>
+    .f1{
+        display: flex;
+        align-items: center;
+    }
+    .img1{
+        
+        height: 682px;
+        width: 537px
+    }
+    form{
+        padding-left: 228px;
+        font-size: x-large;
+        
+    }
+    label{
+       font-size: small;
+       font-weight: bolder;
+       font-family: math;
+    }
+    input{
+        font-size: larger;
+    }
+    ::placeholder{
+        font-size: small;
+    }
+    .cvv{
+        width: 50px;
+        margin-left: 100px;
+    }
+    .Confirm
+    {background-color:rgb(53, 8, 45) ;
+        color: white;
+        margin-top: 24px;
+        width: 100%;
+        height: 50px;
+        font-size: 15px;
+        border-radius: 10px;
+        border: none;
+        
+
+    }
+    .front{
+        position: absolute;
+        top: 113px;
+    left: 143px
+    }
+    .back{
+        position:absolute;
+        top: 365px;
+         left: 299px;
+}
+
+    
+</style>
